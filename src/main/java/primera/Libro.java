@@ -1,23 +1,28 @@
 package primera;
- 
+
 /**
-* Representa un libro en la biblioteca.
-* Un libro tiene un título, un autor y un año de publicación.
-*/
+ * Representa un libro en la biblioteca.
+ * Un libro tiene un título, un autor y un año de publicación.
+ * 
+ * @author Tristan Marin
+ * @version 1.0
+ */
 public class Libro {
     /**
      * El título del libro.
      */
     private String titulo;
+
     /**
      * El autor del libro.
      */
     private Autor autor;
+
     /**
      * El año de publicación del libro.
      */
     private int anioPublicacion;
- 
+
     /**
      * Constructor de la clase Libro.
      *
@@ -30,7 +35,7 @@ public class Libro {
         this.autor = autor;
         this.anioPublicacion = anioPublicacion;
     }
- 
+
     /**
      * Obtiene el título del libro.
      *
@@ -39,7 +44,7 @@ public class Libro {
     public String getTitulo() {
         return titulo;
     }
- 
+
     /**
      * Obtiene el autor del libro.
      *
@@ -48,7 +53,7 @@ public class Libro {
     public Autor getAutor() {
         return autor;
     }
- 
+
     /**
      * Obtiene el año de publicación del libro.
      *

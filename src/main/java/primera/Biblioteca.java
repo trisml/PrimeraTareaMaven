@@ -1,16 +1,21 @@
+package primera;
+
 import java.util.ArrayList;
 import java.util.List;
- 
+
 /**
-* Representa una biblioteca que gestiona libros.
-* Contiene una lista de libros y permite agregar y obtener libros.
-*/
+ * Representa una biblioteca que gestiona libros.
+ * Contiene una lista de libros y permite agregar y obtener libros.
+ * 
+ * @author Tristan Marin
+ * @version 1.0
+ */
 public class Biblioteca {
     /**
      * Lista de libros disponibles en la biblioteca.
      */
     private List<Libro> libros;
- 
+
     /**
      * Constructor de la clase Biblioteca.
      * Inicializa la lista de libros.
@@ -18,7 +23,7 @@ public class Biblioteca {
     public Biblioteca() {
         this.libros = new ArrayList<>();
     }
- 
+
     /**
      * Agrega un libro a la biblioteca.
      *
@@ -27,7 +32,7 @@ public class Biblioteca {
     public void agregarLibro(Libro libro) {
         libros.add(libro);
     }
- 
+
     /**
      * Obtiene la lista de libros en la biblioteca.
      *
